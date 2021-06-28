@@ -13,7 +13,7 @@ export default function Authneeded() {
     return (
         <div className={styles.container}>
         <h1>Usuário só acessa com autenticação bem sucedida.</h1>
-        <h1>{user.email}</h1>
+
         </div>
     );
 }
