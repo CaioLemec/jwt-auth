@@ -9,7 +9,7 @@ git@github.com:CaioLemec/jwt-auth.git
 ```
 2. Open a terminal for each folder:
 ```bash 
-auth-backend/ & auth-front/
+auth-backend/ and auth-front/
 ```
 3. Install all dependencies by using the command on terminals:
 ```bash
