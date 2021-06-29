@@ -1,5 +1,4 @@
-Criação de contexto <br>
-configurando axios para consumir backend em local:3333/ <br>
+An example of JWT authentication using NodeJs, NextJs and Typescript.
 
 
 Follow the instructions to run the application:
