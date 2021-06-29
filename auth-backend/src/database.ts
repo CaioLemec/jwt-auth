@@ -17,6 +17,12 @@ export function seedUserStore() {
     permissions: ['users.list', 'metrics.list'],
     roles: ['editor']
   })
+
+  users.set('111@test.com', {
+    password: '111',
+    permissions: ['users.list', 'metrics.list'],
+    roles: ['administrator']
+  })
 }
 
 export function createRefreshToken(email: string) {
