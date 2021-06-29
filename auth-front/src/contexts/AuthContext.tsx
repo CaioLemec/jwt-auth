@@ -26,6 +26,7 @@ type AuthProviderProps = {
 
 export const AuthContext = createContext({} as AuthContextData);
 
+
 export function signOut() {
     destroyCookie(undefined, 'jwtauth.token')
     destroyCookie(undefined, 'jwtauth.refreshToken')
