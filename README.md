@@ -1,4 +1,4 @@
-## An example of JWT authentication using NodeJs, NextJs and Typescript.
+## JWT authentication using NodeJs, NextJs and Typescript.
 
 
 Follow the instructions to run the application:
