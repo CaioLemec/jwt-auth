@@ -82,7 +82,6 @@ export function AuthProvider({ children }: AuthProviderProps) {
             console.log(error);
         }
     }
-
     return (
         <AuthContext.Provider value={{ signIn, isAuthenticated, user }}>
             { children }
