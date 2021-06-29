@@ -27,13 +27,3 @@ http://localhost:3000/
 Licensed under MIT [LICENSE](./LICENSE.md).
 
 <hr>
-
-I am available for any clarification. 
-    
-<img style="border-radius: 30%;" src="https://avatars3.githubusercontent.com/u/59886891?s=460&v=4" width="75px;"/>
-<h3>Caio Lemec<h3>
-<a href="https://t.me/caiolemec"><img src="https://img.shields.io/badge/Telegram-835afd?style=for-the-badge&logo=telegram&logoColor=white"/>
-<a href="mailto:caiolemec@gmail.com"><img src="https://img.shields.io/static/v1?label=&message=E-mail&color=835afd&style=for-the-badge&logo=Gmail"/>
-<a href="https://www.linkedin.com/in/caiolemec/"><img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=835afd&style=for-the-badge&logo=linkedin"/>
-<br>
-</p>
