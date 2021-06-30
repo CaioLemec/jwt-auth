@@ -1,5 +1,12 @@
 ## JWT authentication using NodeJs, NextJs and Typescript.
 
+<h2>
+With this application is possible to perform an authentication via JWT.
+Store token in cookies (SSR and Local).
+Generating refresh token.
+Redirect users with successful signIn to pages that require auth.
+</h2>
+
 
 Follow the instructions to run the application:
 
