@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 import { Can } from "../components/Can";
-import { AuthContext } from "../contexts/AuthContext";
+import { AuthContext, signOut } from "../contexts/AuthContext";
 import { useCan } from "../hooks/useCan";
 import { setupAPIClient } from "../services/api";
 import { api } from "../services/apiClient";
@@ -8,7 +8,7 @@ import { withSSRAuth } from "../utils/withSSRAuth";
 import styles from './home.module.scss'
 
 export default function Authneeded() {
-    const { user } = useContext(AuthContext);
+    const { user, signOut } = useContext(AuthContext);
 
     const userCanSeeMetrics = useCan({
         roles: ['administrator','metrics.list']
@@ -20,12 +20,13 @@ export default function Authneeded() {
 
     return (
         <div className={styles.container}>
-        <h1>Usuário só acessa com autenticação bem sucedida.</h1>
-        <h1>{user?.email}</h1>
+        <h1>Successful authentication!</h1>
+        <h1>{user.email}</h1>
         { userCanSeeMetrics && <div>Permission to see Metrics</div> }
         <Can permissions={['metrics.list']}>
             <div>Permission with components</div>
         </Can>
+        <button onClick={signOut}>Sign Out</button>
         </div>
     );
 }
