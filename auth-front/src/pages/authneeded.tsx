@@ -1,4 +1,5 @@
 import { useContext, useEffect } from "react";
+import { Can } from "../components/Can";
 import { AuthContext } from "../contexts/AuthContext";
 import { useCan } from "../hooks/useCan";
 import { setupAPIClient } from "../services/api";
@@ -22,6 +23,9 @@ export default function Authneeded() {
         <h1>Usuário só acessa com autenticação bem sucedida.</h1>
         <h1>{user?.email}</h1>
         { userCanSeeMetrics && <div>Permission to see Metrics</div> }
+        <Can permissions={['metrics.list']}>
+            <div>Permission with components</div>
+        </Can>
         </div>
     );
 }
