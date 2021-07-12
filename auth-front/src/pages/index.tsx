@@ -22,8 +22,8 @@ export default function Home() {
   return (
     <form className={styles.container}>
       <h2>Jason Web Token</h2>
-      <input type="email" value={email} onChange={e => setEmail(e.target.value)} />
-      <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
+      <input placeholder="123@test.com" type="email" value={email} onChange={e => setEmail(e.target.value)} />
+      <input placeholder="123" type="password" value={password} onChange={e => setPassword(e.target.value)} />
       <button onClick={handleSubmit} type="submit">Entrar</button>
     </form>
   )
